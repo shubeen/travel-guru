@@ -10,7 +10,7 @@ const Home = () => {
         <div >
             
            <Header></Header>
-           <HomePage></HomePage>
+           <HomePage/>
            
            
            

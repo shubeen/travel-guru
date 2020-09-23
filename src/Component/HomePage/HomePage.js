@@ -35,7 +35,7 @@ const HomePage = () => {
             <div className="col-md-4">
                <h1>{placeSelect.name}</h1>
                <p>{placeSelect.description}</p>
-            <Link className="btn btn-warning" onClick ={()=>booking(placeSelect)}>Booking</Link>
+            <Link className="btn btn-warning font-weight-bold" onClick ={()=>booking(placeSelect)}>Booking >></Link>
            </div>
            <div className="col-md-8 d-md-flex">
                {

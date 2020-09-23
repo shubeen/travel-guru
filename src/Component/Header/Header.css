@@ -22,14 +22,14 @@
   } 
   .nav li{
       display: inline;
-      margin-left: 100px;
+      margin-left: 75px;
       text-decoration: none;
       color: white;
       
   } 
   .search{
     background:none;
-    width: 190px;
+    width: 150px;
   }
   
  

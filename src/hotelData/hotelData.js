@@ -20,22 +20,22 @@ const hotelData = [{
 {
     hotelId: 3,
     hotelName: 'obokash',
-    spec: ' 5 guests 3 bed 3 balcony seaview',
+    spec: ' 4 guests 4 bed 2 balcony beachfront',
     img:"https://i.ibb.co/GfwBjFt/Rectangle28.png",
     price: 2200,
     place: "Cox's Bazar" 
 },
 {
     hotelId: 4,
-    hotelName: 'SeaView',
+    hotelName: 'Onurag',
     spec: ' 4 guests 3 bed 2 balcony seaview',
     img:"https://i.ibb.co/5LNFKsb/Rectangle26.png",
-    price: 1800,
+    price: 2250,
     place: "Sreemongal" 
 },
 {
     hotelId: 5,
-    hotelName: 'SeaView',
+    hotelName: 'Tea State resort',
     spec: ' 4 guests 3 bed 2 balcony seaview',
     img:"https://i.ibb.co/ySXVNbm/Rectangle27.png",
     price: 1800,
@@ -43,23 +43,23 @@ const hotelData = [{
 },
 {
     hotelId: 6,
-    hotelName: 'SeaView',
+    hotelName: 'Palace ',
     spec: ' 4 guests 3 bed 2 balcony seaview',
     img:"https://i.ibb.co/GfwBjFt/Rectangle28.png",
-    price: 1800,
+    price: 2400,
     place: "Sreemongal"
 },
 {
     hotelId: 7,
-    hotelName: 'SeaView',
+    hotelName: 'Grand Hotel',
     spec: ' 4 guests 3 bed 2 balcony seaview',
     img:"https://i.ibb.co/5LNFKsb/Rectangle26.png",
-    price: 1800,
+    price: 2200,
     place: "Sundarban"
 },
 {
     hotelId: 8,
-    hotelName: 'SeaView',
+    hotelName: 'Hotel Tiger palace',
     spec: ' 4 guests 3 bed 2 balcony seaview',
     img:"https://i.ibb.co/ySXVNbm/Rectangle27.png",
     price: 1800,
@@ -67,10 +67,10 @@ const hotelData = [{
 },
 {
     hotelId: 9,
-    hotelName: 'SeaView',
+    hotelName: 'Kotka ',
     spec: ' 4 guests 3 bed 2 balcony seaview',
     img:"https://i.ibb.co/GfwBjFt/Rectangle28.png",
-    price: 1800,
+    price: 1500,
     place: "Sundarban"
 },
 ]

@@ -6,12 +6,15 @@ import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
 import InfoComing from './Component/InfoComing/InfoComing';
 import Booking from './Component/Booking/Booking';
+import SearchPlace from './Component/SearchPlace/SearchPlace';
+import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
+import NotFound from './Component/NotFound/NotFound';
 
 
  export const SelectContext= createContext([]);
 
 function App() {
-  const [placeSelect, setPlaceSelect] = useState([]);
+  const [placeSelect, setPlaceSelect] = useState({});
   const [loggedInUser, setLoggedInUser] = useState({});
   
   return (
@@ -24,26 +27,31 @@ function App() {
           <Route  path = '/home'>
             <Home></Home>
           </Route>
+          <Route exact path="/">
+              <Home/>
+            </Route>
           <Route  path = '/booking'>
             <Booking></Booking>
           </Route>
+          <PrivateRoute  path = '/searchPlace'>
+            <SearchPlace></SearchPlace>
+          </PrivateRoute>
           <Route  path = '/login'>
-            <InfoComing></InfoComing>
+            <Login></Login>
           </Route>
           <Route  path = '/destination'>
              <InfoComing></InfoComing>
           </Route>
-          <Route exact path="/">
-              <Home />
-            </Route>
+          
             <Route  path = '/contact'>
              <InfoComing></InfoComing>
           </Route>
+          <Route  path = '*'>
+             <NotFound/>
+          </Route>
         </Switch>
       </Router>
-      </SelectContext.Provider> 
-      
-      
+      </SelectContext.Provider>    
    
   );
 }
